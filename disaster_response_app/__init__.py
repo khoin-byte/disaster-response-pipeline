@@ -2,4 +2,4 @@ from flask import Flask
 
 app = Flask(__name__)
 
-from worldbankapp import routes
+from disaster_response_app import routes
