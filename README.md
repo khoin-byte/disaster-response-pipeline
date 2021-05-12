@@ -27,7 +27,8 @@ Result of running inference on trained model.
 ![search page](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/search_results.png)
 
 # Future Improvements
-From the bar plots below of a few lables, we can clearly see an imbalance of the minority class. This is a problem and we can see that for the F1-score metric, some of the heavily imbalanced labels have very low F1-score. This inevitably affected the overall macro F1-score. Some techniques to improve results:
+From the bar plots below of a few lables, we can clearly see an imbalance of the minority class. This is a problem and we can see that for the F1-score metric, some of the heavily imbalanced labels have very low F1-score. 
+![imbalance](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/imbalance_lables.png)
+This inevitably affected the overall macro F1-score. Some techniques to improve results:
 * Some models, e.g. RandomForestClassifier and Logistic Regression have a **class_weight** parameter that we can set as 'balanced' to put more weight on the minority class.
 * Imbalance Learn, i.e. imblearn has random over sampling and Synthetic Minority Oversampling Technique to augment our dataset and increase the minority class.
-![imbalance](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/imbalance_lables.png)
