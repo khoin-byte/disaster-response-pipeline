@@ -14,8 +14,10 @@ Main code base should run Python 3.* with the following library (pip install if 
 * Numpy, Pandas, Sqlite3, SQLalchemy, Scikit-Learn, Pickle, NLTK for ETL and ML pipelines.
 * Flask, Plotly for Flask web app.
 
-## Run Instructions
+# Run Instructions
 * To run ETL pipeline that cleans data and stores in database ** python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv** 
 * To run ML pipeline that trains classifier and saves **python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl**
 * To run the app, Run the following command in the app's directory to run your web app. **python run.py**. Then go to: **http://0.0.0.0:3001/**
 
+# Web App
+![main page](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/entry.png)
