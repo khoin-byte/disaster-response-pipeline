@@ -20,4 +20,10 @@ Main code base should run Python 3.* with the following library (pip install if 
 * To run the app, Run the following command in the app's directory to run your web app. **python run.py**. Then go to: **http://0.0.0.0:3001/**
 
 # Web App
+Main Entry to Web App with search bar for user to type in query for inference.
 ![main page](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/entry.png)
+
+Result of running inference on trained model.
+![search page](https://github.com/khoin-byte/disaster-response-pipeline/blob/main/demo/search_results.png)
+
+# Future Improvements
